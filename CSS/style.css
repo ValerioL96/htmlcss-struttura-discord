@@ -5,3 +5,19 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: rgb(77, 77, 255);
+    
+}
+
+.header-container{
+  
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.p-header{ 
+    display: flex;
+    align-items: center;
+}

@@ -10,14 +10,42 @@ header{
     
 }
 
+
 .header-container{
-  
     display: flex;
     justify-content: space-evenly;
    
 }
 
 .p-header{ 
+    
     display: flex;
+   align-items: center;
+}
+
+.p-header>p{
+    padding-left: 2rem;
+}
+
+
+
+
+.intro{
+    padding: 5rem 10rem 0;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+ 
+.intro>p{
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.button-intro{
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    
 }

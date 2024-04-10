@@ -5,72 +5,32 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
 
 header{
-    background-color: rgb(77, 77, 255);
+    background-color: blue;
     color: white;
-    
 }
 
-
-.header-container{
-    display: flex;
-    justify-content: space-evenly;
-   
-}
-
-.p-header{ 
-    
-    display: flex;
-   align-items: center;
-}
-
-.p-header>p{
-    padding-left: 2rem;
-}
-
-
-
-
-.intro{
-    padding: 5rem 10rem 0;
-    display: flex;
-    flex-direction: column;
+.upper{
+    padding: 1.5rem 2rem;
+    justify-content: space-between;
     align-items: center;
 }
-.intro>h1{
-    font-size: 2.5rem;
-}
- 
-.intro>p{
-    padding: 2rem 18rem .5rem;
+
+.jumbotron{
+    padding: 5rem 10rem;
     text-align: center;
-}
-
-.button-intro{
-    padding-bottom: 5rem;
-    display: flex;
-    justify-content: center;
-
-    
-}
-
-.button-intro>input{
-    padding: .2rem 1rem;
-    margin-right: 1rem;
-
-}
-
-.main-container{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: stretch;
-}
-
-.main-1{
-    display: flex;
-    flex-direction: column;
-     padding: 5rem 5rem 2rem 60rem
-
 }

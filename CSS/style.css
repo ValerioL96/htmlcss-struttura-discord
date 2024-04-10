@@ -36,6 +36,10 @@ header{
     align-items: center;
 }
 
+header nav ul li{
+    margin: .5rem;
+}
+
 .jumbotron{
     padding: 5rem 10rem;
     text-align: center;

@@ -48,3 +48,19 @@ header{
 .column{
     padding: 2.5rem
 }
+
+.tecnologia{
+    flex-direction: column;
+    padding: 2.5rem 10rem;
+    text-align: center;
+}
+
+footer{
+    background-color: gray;
+    padding: 2rem 5rem;
+    justify-content: space-around;
+}
+
+.social{
+    flex-direction: column;
+}
